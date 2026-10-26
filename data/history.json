@@ -1,0 +1,10 @@
+{
+  "u1001": [
+    {"id": "T-4410", "summary": "VPN disconnecting at home", "status": "resolved", "team": "Network"},
+    {"id": "T-4522", "summary": "Request for Docker Desktop", "status": "resolved", "team": "IT Helpdesk"}
+  ],
+  "u1002": [
+    {"id": "T-4601", "summary": "Locked out after password change", "status": "resolved", "team": "Identity & Access"}
+  ],
+  "u1003": []
+}

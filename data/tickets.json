@@ -1,0 +1,14 @@
+[
+  {"id": 1, "user_id": "u1001", "text": "VPN keeps disconnecting every few minutes when I work from home", "team": "Network", "priority": "P3", "kb": "vpn-connection"},
+  {"id": 2, "user_id": "u1002", "text": "I forgot my password and I'm locked out of my laptop", "team": "Identity & Access", "priority": "P2", "kb": "password-reset"},
+  {"id": 3, "user_id": "u1003", "text": "Got a new phone and can't approve MFA prompts, can't log in at all", "team": "Identity & Access", "priority": "P2", "kb": "mfa-lost-phone"},
+  {"id": 4, "user_id": "u1003", "text": "Wi-Fi in the 3rd floor meeting room is very slow", "team": "Network", "priority": "P3", "kb": "wifi-office"},
+  {"id": 5, "user_id": "u1003", "text": "My laptop takes 10 minutes to boot and the fans are always loud", "team": "IT Helpdesk", "priority": "P4", "kb": "slow-laptop"},
+  {"id": 6, "user_id": "u1003", "text": "The printer on floor 2 shows offline", "team": "IT Helpdesk", "priority": "P4", "kb": "printer-offline"},
+  {"id": 7, "user_id": "u1003", "text": "Outlook calendar invites are not syncing to my phone", "team": "Enterprise Apps", "priority": "P4", "kb": "outlook-sync"},
+  {"id": 8, "user_id": "u1001", "text": "Need Docker Desktop installed on my machine", "team": "IT Helpdesk", "priority": "P4", "kb": "software-install"},
+  {"id": 9, "user_id": "u1003", "text": "I clicked a link in a suspicious email and entered my credentials", "team": "Security", "priority": "P1", "kb": "phishing-report"},
+  {"id": 10, "user_id": "u1003", "text": "Please give me access to the finance shared drive", "team": "Identity & Access", "priority": "P4", "kb": "access-request"},
+  {"id": 11, "user_id": "u1003", "text": "Mic doesn't work in video calls, others can't hear me, and I have a customer call in 30 minutes", "team": "IT Helpdesk", "priority": "P2", "kb": "video-call-audio"},
+  {"id": 12, "user_id": "u1003", "text": "The CRM shows a session expired error every time I open the sales dashboard", "team": "Enterprise Apps", "priority": "P3", "kb": "crm-login-error"}
+]
