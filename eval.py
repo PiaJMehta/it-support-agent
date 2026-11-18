@@ -1,7 +1,7 @@
 """Run the agent on data/tickets.json and report accuracy.
 
     python eval.py --llm mock                 # plumbing check, runs offline
-    python eval.py --llm anthropic            # real model, this is the number you can report
+    python eval.py --llm anthropic            # real model accuracy
 """
 import argparse
 import json
