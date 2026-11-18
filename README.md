@@ -32,7 +32,7 @@ python eval.py --llm mock                   # checks the code, offline
 
 export ANTHROPIC_API_KEY=...                # real model
 python -m agent.cli "VPN keeps dropping" --llm anthropic --user u1001
-python eval.py --llm anthropic              # the real accuracy number
+python eval.py --llm anthropic              # model accuracy
 ```
 
 Set `AGENT_MODEL` to change the model (default `claude-haiku-5-5`).
@@ -44,9 +44,9 @@ Docker: `docker build -t it-agent . && docker run it-agent`
 `data/tickets.json` has 12 labelled tickets (expected team, priority and KB article).
 `eval.py` reports team accuracy, priority accuracy and KB match.
 
-**The mock model gets 100% by construction. That only proves the code works. Report only the numbers from `--llm anthropic`.**
+The mock model scores 100% by design, so a mock run only checks that the code works. Model accuracy comes from `--llm anthropic`.
 
-## Ideas to extend
+## Next steps
 
 - Replace BM25 with embeddings (or combine both) and compare retrieval accuracy.
 - Grow the eval set to 50+ tickets, including ambiguous and adversarial ones (prompt injection).
